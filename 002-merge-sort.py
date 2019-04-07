@@ -19,7 +19,7 @@ def merge_sort(A, p, q, r):
     j = 0
 
     for k in range(p, r):
-        if i < len(L) and i < len(R) and L[i] <= R[i]:
+        if i < len(L) and i < len(R) and L[i] <= R[j]:
             A[k] = L[i]
             i += 1
         else:
